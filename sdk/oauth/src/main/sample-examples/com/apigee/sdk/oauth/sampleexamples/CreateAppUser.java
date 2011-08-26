@@ -14,9 +14,9 @@ import  com.apigee.sdk.oauth.api.resource.*;
 public class CreateAppUser {
 
    public static void main(String[] args){
-
+	   System.out.println("Usage : pass the following args : username,password,appname");
        try {
-           AppUser user = AppUser.Factory.newInstance("sampleuser02","secret").forApp("aps").create();
+           AppUser user = AppUser.Factory.newInstance(args[0],args[1]).forApp(args[2]).create();
 		   System.out.println(user.getSmartKey());
        } catch (ResourceException e) {
 		   System.out.println("Test failed");

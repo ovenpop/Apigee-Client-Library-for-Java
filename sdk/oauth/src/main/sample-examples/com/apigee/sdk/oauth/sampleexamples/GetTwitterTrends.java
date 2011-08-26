@@ -17,12 +17,12 @@ import com.apigee.sdk.oauth.impl.model.Request.*;
 public class GetTwitterTrends {
 
    public static void main(String[] args){
-
+	   System.out.println("Usage : pass the following args : smartkey,appname");
        try {
            RestCallResult result = new RestCall(Request.HttpVerb.GET,"/1/trends.json")
-             .withSmartKey("b5b340bd-9654-46ca-a467-c1bcbcc399af")
+             .withSmartKey(args[0])
              .toProvider("twitter")
-             .usingApp("aps")
+             .usingApp(args[1])
              .invoke();
 			 System.out.println(result.getResponsePayload());
        } catch (RestCallException e) {
