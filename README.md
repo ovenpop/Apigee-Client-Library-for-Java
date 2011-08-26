@@ -12,7 +12,11 @@ This java library makes it easy to work with the OAuth API from Apigee.
 a. Review the [sample scripts](https://github.com/apigee/Apigee-Client-Library-for-Java/tree/master/sdk/oauth/src/main/sample-examples)
 
 b. Add/modify the .java files for different input. For different request: 
+
 * create a new java file similar to GetTwitterTrends.java.
+
 *  modify compile and run scripts accordingly.
+
 * run the compilation script
+
 * then run the script
