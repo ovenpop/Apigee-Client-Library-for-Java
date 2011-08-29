@@ -9,7 +9,7 @@ This java library makes it easy to work with the OAuth API from Apigee.
     
 ## Instructions to run ##
 
-a. Review the [sample scripts](https://github.com/apigee/Apigee-Client-Library-for-Java/tree/master/sdk/oauth/src/main/sample-examples)
+a. Review the [sample scripts](https://github.com/apigee/Apigee-Client-Library-for-Java/tree/master/src/main/sample-examples)
 
 b. Add/modify the .java files for different input. For different request: 
 
