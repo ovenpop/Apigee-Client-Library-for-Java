@@ -3,9 +3,10 @@ This java library makes it easy to work with the OAuth API from Apigee.
 ## Notes ##
 1. The libraries required to run in lib dir. Please check below for building your changes. 
 
-2. There are a couple of sample scripts - (windows bat files ,as of now):
+2. There are a few sample scripts 
     a> create app user
-    b> make a twitter /trends.json request
+    b> Get the Auth URL
+    c> make a twitter /trends.json request
     
 ## Instructions to run ##
 

@@ -12,6 +12,7 @@ import com.apigee.sdk.oauth.api.resource.AppUser;
 public class GetAuthURL {
 
     public static void main(String[] args) {
-        String url = AppUser.Factory.newInstance("appusername","userpwd").forApp("appname").getAuthURL("provider","callbackurl");
+        String url = AppUser.Factory.newInstance(args[0],args[1]).forApp(args[2]).getAuthURL(args[3],args[4]);
+        System.out.println(url);
     }
 }
