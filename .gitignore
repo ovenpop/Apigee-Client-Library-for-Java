@@ -1,0 +1,6 @@
+target
+.iml
+.class
+src/main/Main.iml
+src/main/*.iml
+src/main/sample-examples/com/apigee/sdk/oauth/sampleexamples/*.class
