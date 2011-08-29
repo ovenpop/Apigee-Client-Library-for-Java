@@ -20,3 +20,11 @@ b. Add/modify the .java files for different input. For different request:
 * run the compilation script
 
 * then run the script
+
+## Building the source ##
+
+a. Please make sure you have maven installed.
+
+b. run the command - mvn clean install at the root level (where pom.xml exists)
+
+c. The required jars are in target and target/lib
