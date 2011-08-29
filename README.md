@@ -1,9 +1,9 @@
 This java library makes it easy to work with the OAuth API from Apigee.
 
 ## Notes ##
-1. The libraries required to run in lib dir. Normally this should be built by a maven script for example (this is a TODO). So while all required jars are present in lib dir, they will be removed later. 
+1. The libraries required to run in lib dir. Please check below for building your changes. 
 
-2. There are a couple of sample scripts - (windows bat files - had some problem in shell scripts):
+2. There are a couple of sample scripts - (windows bat files ,as of now):
     a> create app user
     b> make a twitter /trends.json request
     
@@ -13,18 +13,18 @@ a. Review the [sample scripts](https://github.com/apigee/Apigee-Client-Library-f
 
 b. Add/modify the .java files for different input. For different request: 
 
-* create a new java file similar to GetTwitterTrends.java.
+* Create a new java file similar to GetTwitterTrends.java.
 
-*  modify compile and run scripts accordingly.
+* Modify compile and run scripts accordingly.
 
-* run the compilation script
+* Run the compilation script
 
-* then run the script
+* Then run the script
 
 ## Building the source ##
 
 a. Please make sure you have maven installed.
 
-b. run the command - mvn clean install at the root level (where pom.xml exists)
+b. Run the command - mvn clean install at the root level (where pom.xml exists)
 
-c. The required jars are in target and target/lib
+c. The required jars are in target and target/lib.
