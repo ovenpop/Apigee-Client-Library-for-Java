@@ -150,6 +150,10 @@
 				    <artifactId>jmxtools</artifactId>
                 </exclusion>
                 <exclusion>
+                     <groupId>javax.jms</groupId>
+                      <artifactId>jms</artifactId>
+                </exclusion>
+                <exclusion>
                      <groupId>javax.mail</groupId>
                       <artifactId>mail</artifactId>
                 </exclusion>

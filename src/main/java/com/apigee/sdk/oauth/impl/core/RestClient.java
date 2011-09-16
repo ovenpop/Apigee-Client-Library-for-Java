@@ -29,7 +29,6 @@ import java.util.Map;
  */
 public class RestClient {
 
-
     private Logger logger = Logger.getLogger(RestClient.class);
     /***
      * Create the singleton instance
