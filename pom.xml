@@ -12,7 +12,7 @@
     <build>
         <finalName>${project.artifactId}-${project.version}</finalName>
         <sourceDirectory>src/main/java/</sourceDirectory>
-        <testSourceDirectory>test/unittests/java/</testSourceDirectory>
+        <testSourceDirectory>src/test/java/</testSourceDirectory>
         <resources>
             <resource>
                 <directory>src/main/resources/</directory>
