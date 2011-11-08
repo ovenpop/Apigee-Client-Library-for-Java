@@ -25,7 +25,7 @@ public class Representation {
     /***
      * A metadata singleton object.
      */
-    private static MetaData metaData = new MetaData();
+    private MetaData metaData = new MetaData();
 
     /***
      * The content of this Representation for a HTTP request to resource.
